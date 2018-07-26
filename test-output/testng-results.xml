@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="320992" started-at="2018-07-26T17:43:38Z" finished-at="2018-07-26T17:48:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="320992" started-at="2018-07-26T17:43:38Z" finished-at="2018-07-26T17:48:59Z">
+      <class name="registration.UserRegistration">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="17053" started-at="2018-07-26T23:13:38Z" finished-at="2018-07-26T23:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isfield_present()[pri:0, instance:registration.UserRegistration@475530b9]" name="isfield_present" duration-ms="474" started-at="2018-07-26T23:13:55Z" finished-at="2018-07-26T23:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isfield_present -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1456" started-at="2018-07-26T23:13:55Z" finished-at="2018-07-26T23:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="9687" started-at="2018-07-26T23:13:57Z" finished-at="2018-07-26T23:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="blank_field()[pri:0, instance:registration.UserRegistration@475530b9]" name="blank_field" duration-ms="921" started-at="2018-07-26T23:14:07Z" finished-at="2018-07-26T23:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_field -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1231" started-at="2018-07-26T23:14:08Z" finished-at="2018-07-26T23:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="19411" started-at="2018-07-26T23:14:09Z" finished-at="2018-07-26T23:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fname_blank()[pri:0, instance:registration.UserRegistration@475530b9]" name="fname_blank" duration-ms="1775" started-at="2018-07-26T23:14:28Z" finished-at="2018-07-26T23:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fname_blank -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1162" started-at="2018-07-26T23:14:30Z" finished-at="2018-07-26T23:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="11944" started-at="2018-07-26T23:14:31Z" finished-at="2018-07-26T23:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="lname_blank()[pri:0, instance:registration.UserRegistration@475530b9]" name="lname_blank" duration-ms="1768" started-at="2018-07-26T23:14:43Z" finished-at="2018-07-26T23:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lname_blank -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1261" started-at="2018-07-26T23:14:45Z" finished-at="2018-07-26T23:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="12377" started-at="2018-07-26T23:14:46Z" finished-at="2018-07-26T23:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="uname_blank()[pri:0, instance:registration.UserRegistration@475530b9]" name="uname_blank" duration-ms="1722" started-at="2018-07-26T23:14:58Z" finished-at="2018-07-26T23:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uname_blank -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1253" started-at="2018-07-26T23:15:00Z" finished-at="2018-07-26T23:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="10003" started-at="2018-07-26T23:15:01Z" finished-at="2018-07-26T23:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="pwd_blank()[pri:0, instance:registration.UserRegistration@475530b9]" name="pwd_blank" duration-ms="1701" started-at="2018-07-26T23:15:11Z" finished-at="2018-07-26T23:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pwd_blank -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1250" started-at="2018-07-26T23:15:13Z" finished-at="2018-07-26T23:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="9714" started-at="2018-07-26T23:15:14Z" finished-at="2018-07-26T23:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cpwd_blank()[pri:0, instance:registration.UserRegistration@475530b9]" name="cpwd_blank" duration-ms="1493" started-at="2018-07-26T23:15:24Z" finished-at="2018-07-26T23:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cpwd_blank -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1254" started-at="2018-07-26T23:15:26Z" finished-at="2018-07-26T23:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="12309" started-at="2018-07-26T23:15:27Z" finished-at="2018-07-26T23:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="email_blank()[pri:0, instance:registration.UserRegistration@475530b9]" name="email_blank" duration-ms="1421" started-at="2018-07-26T23:15:39Z" finished-at="2018-07-26T23:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_blank -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1204" started-at="2018-07-26T23:15:41Z" finished-at="2018-07-26T23:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="23131" started-at="2018-07-26T23:15:42Z" finished-at="2018-07-26T23:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fname_lenth()[pri:0, instance:registration.UserRegistration@475530b9]" name="fname_lenth" duration-ms="1763" started-at="2018-07-26T23:16:05Z" finished-at="2018-07-26T23:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fname_lenth -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1206" started-at="2018-07-26T23:16:07Z" finished-at="2018-07-26T23:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="9999" started-at="2018-07-26T23:16:08Z" finished-at="2018-07-26T23:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="lname_lenth()[pri:0, instance:registration.UserRegistration@475530b9]" name="lname_lenth" duration-ms="1630" started-at="2018-07-26T23:16:18Z" finished-at="2018-07-26T23:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lname_lenth -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1241" started-at="2018-07-26T23:16:20Z" finished-at="2018-07-26T23:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="10769" started-at="2018-07-26T23:16:21Z" finished-at="2018-07-26T23:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="uname_length()[pri:0, instance:registration.UserRegistration@475530b9]" name="uname_length" duration-ms="1917" started-at="2018-07-26T23:16:32Z" finished-at="2018-07-26T23:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uname_length -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1151" started-at="2018-07-26T23:16:33Z" finished-at="2018-07-26T23:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="13404" started-at="2018-07-26T23:16:35Z" finished-at="2018-07-26T23:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="pwd_length()[pri:0, instance:registration.UserRegistration@475530b9]" name="pwd_length" duration-ms="1791" started-at="2018-07-26T23:16:48Z" finished-at="2018-07-26T23:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pwd_length -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1205" started-at="2018-07-26T23:16:50Z" finished-at="2018-07-26T23:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="12659" started-at="2018-07-26T23:16:51Z" finished-at="2018-07-26T23:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cpwd_length()[pri:0, instance:registration.UserRegistration@475530b9]" name="cpwd_length" duration-ms="1807" started-at="2018-07-26T23:17:04Z" finished-at="2018-07-26T23:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cpwd_length -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1188" started-at="2018-07-26T23:17:05Z" finished-at="2018-07-26T23:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="12896" started-at="2018-07-26T23:17:07Z" finished-at="2018-07-26T23:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalid_email()[pri:0, instance:registration.UserRegistration@475530b9]" name="invalid_email" duration-ms="2209" started-at="2018-07-26T23:17:20Z" finished-at="2018-07-26T23:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_email -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1209" started-at="2018-07-26T23:17:22Z" finished-at="2018-07-26T23:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="14356" started-at="2018-07-26T23:17:23Z" finished-at="2018-07-26T23:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalid_phone()[pri:0, instance:registration.UserRegistration@475530b9]" name="invalid_phone" duration-ms="2015" started-at="2018-07-26T23:17:37Z" finished-at="2018-07-26T23:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_phone -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1324" started-at="2018-07-26T23:17:39Z" finished-at="2018-07-26T23:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="15035" started-at="2018-07-26T23:17:41Z" finished-at="2018-07-26T23:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="all_invalid_field_lenth()[pri:0, instance:registration.UserRegistration@475530b9]" name="all_invalid_field_lenth" duration-ms="1291" started-at="2018-07-26T23:17:56Z" finished-at="2018-07-26T23:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all_invalid_field_lenth -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1138" started-at="2018-07-26T23:17:57Z" finished-at="2018-07-26T23:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="23923" started-at="2018-07-26T23:17:58Z" finished-at="2018-07-26T23:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="pwd_match()[pri:0, instance:registration.UserRegistration@475530b9]" name="pwd_match" duration-ms="2804" started-at="2018-07-26T23:18:22Z" finished-at="2018-07-26T23:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pwd_match -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1173" started-at="2018-07-26T23:18:25Z" finished-at="2018-07-26T23:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="14354" started-at="2018-07-26T23:18:26Z" finished-at="2018-07-26T23:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="pwd_mismatch()[pri:0, instance:registration.UserRegistration@475530b9]" name="pwd_mismatch" duration-ms="1824" started-at="2018-07-26T23:18:40Z" finished-at="2018-07-26T23:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pwd_mismatch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1524" started-at="2018-07-26T23:18:42Z" finished-at="2018-07-26T23:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="beforeMethod" is-config="true" duration-ms="11680" started-at="2018-07-26T23:18:44Z" finished-at="2018-07-26T23:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="successful_registration()[pri:0, instance:registration.UserRegistration@475530b9]" name="successful_registration" duration-ms="2209" started-at="2018-07-26T23:18:55Z" finished-at="2018-07-26T23:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successful_registration -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registration.UserRegistration@475530b9]" name="afterMethod" is-config="true" duration-ms="1272" started-at="2018-07-26T23:18:58Z" finished-at="2018-07-26T23:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- registration.UserRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
