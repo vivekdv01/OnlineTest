@@ -14,12 +14,12 @@ public class UserRegistration {
 	
 	static WebElement f;
 	
-	static String sample,sample1,sample2,sample3, sample4;
+	static String sample,sample1,sample2,sample3,sample4;
 	
 	private WebDriver driver;
 	
   @Test(priority = 0)
-  public void isfield_present() {
+  public void required_fields_present() {
 	  	 c= driver.findElement(By.cssSelector("#contact_form > fieldset > div:nth-child(3) > label")).isDisplayed();
 	  	 if(c==true)
 		  System.out.println("First Name is present"); 	  
@@ -50,7 +50,7 @@ public class UserRegistration {
   }
 		  
   @Test(priority = 1)
-	public void blank_field() {
+	public void mandatory_fields_blank() {
 			 
 		driver.findElement(By.name("first_name")).sendKeys(" ");
 		driver.findElement(By.name("last_name")).sendKeys(" ");
@@ -59,7 +59,7 @@ public class UserRegistration {
 		driver.findElement(By.name("confirm_password")).sendKeys(" ");
 		driver.findElement(By.name("email")).sendKeys(" ");
 		driver.findElement(By.name("contact_no")).sendKeys(" ");
-	    driver.findElement(By.cssSelector("#contact_form > fieldset > div:nth-child(12) > div > button")).click();
+	    driver.findElement(By.cssSelector("#contact_form > fieldset > div:nth-child(12) > div")).click();
 		System.out.println("Please enter valid values in the field");		 
 }
   
@@ -97,7 +97,7 @@ public class UserRegistration {
 }
   
   @Test(priority = 5)
-	public void pwd_blank() {
+	public void password_blank() {
 	  driver.findElement(By.name("first_name")).sendKeys("Vivek");
 	  driver.findElement(By.name("last_name")).sendKeys("Yadav");
 	  driver.findElement(By.name("user_name")).sendKeys("vivekdv01");
@@ -108,7 +108,7 @@ public class UserRegistration {
 }
   
   @Test(priority = 6)
-	public void cpwd_blank() {
+	public void confirm_password_blank() {
 	  driver.findElement(By.name("first_name")).sendKeys("Vivek");
 	  driver.findElement(By.name("last_name")).sendKeys("Yadav");
 	  driver.findElement(By.name("user_name")).sendKeys("vivekdv01");
@@ -129,7 +129,7 @@ public class UserRegistration {
 	  System.out.println("Please enter your Email Address");
 }
   @Test(priority = 8)
-	public void fname_lenth() {
+	public void fname_single_char() {
 	  driver.findElement(By.name("last_name")).sendKeys("Yadav");
 	  driver.findElement(By.name("user_name")).sendKeys("vivekdv01");
 	  driver.findElement(By.name("user_password")).sendKeys("Vivek@123"); 
@@ -144,7 +144,7 @@ public class UserRegistration {
   }
   
   @Test(priority = 9)
-	public void lname_lenth() { 
+	public void lname_single_char() { 
      driver.findElement(By.name("first_name")).sendKeys("Vivek");     
      driver.findElement(By.name("user_name")).sendKeys("vivekdv01");
      driver.findElement(By.name("user_password")).sendKeys("Vivek@123"); 
@@ -159,7 +159,7 @@ public class UserRegistration {
   }
   
   @Test(priority = 10)
-  	public void uname_length() {	  
+  	public void uname_seven_char() {	  
 	  driver.findElement(By.name("first_name")).sendKeys("Vivek");
 	  driver.findElement(By.name("last_name")).sendKeys("Yadav");	  
 	  driver.findElement(By.name("user_password")).sendKeys("Vivek@123"); 
@@ -174,7 +174,7 @@ public class UserRegistration {
   }
   
   @Test(priority = 11)
-  	public void pwd_length() {
+  	public void pwd_seven_char() {
 	  driver.findElement(By.name("first_name")).sendKeys("Vivek");
 	  driver.findElement(By.name("last_name")).sendKeys("Yadav");
 	  driver.findElement(By.name("user_name")).sendKeys("vivekdv01");	  
@@ -189,7 +189,7 @@ public class UserRegistration {
   }
   
   @Test(priority = 12)
-  	public void cpwd_length() {
+  	public void cpwd_seven_char() {
 	  driver.findElement(By.name("first_name")).sendKeys("Vivek");
 	  driver.findElement(By.name("last_name")).sendKeys("Yadav");
 	  driver.findElement(By.name("user_name")).sendKeys("vivekdv01");
@@ -210,8 +210,8 @@ public class UserRegistration {
 	  driver.findElement(By.name("user_name")).sendKeys("vivekdv01");
 	  driver.findElement(By.name("user_password")).sendKeys("Vivek@123"); 
 	  driver.findElement(By.name("confirm_password")).sendKeys("Vivek@123");
-	  driver.findElement(By.name("email")).sendKeys("vivekdv01@gmail.com");
-	  driver.findElement(By.name("contact_no")).sendKeys("779571 "); 	  
+	  driver.findElement(By.name("email")).sendKeys("vivekdv01@gmail");
+	  driver.findElement(By.name("contact_no")).sendKeys("7795713406"); 	  
 	  {
 	   System.out.println("Please enter Valid Phone");
 	  }
@@ -225,6 +225,7 @@ public class UserRegistration {
 	  driver.findElement(By.name("user_password")).sendKeys("Vivek@123"); 
 	  driver.findElement(By.name("confirm_password")).sendKeys("Vivek@123");
 	  driver.findElement(By.name("email")).sendKeys("vivekdv01@gmail.com");
+	  driver.findElement(By.name("contact_no")).sendKeys("779571 ");
 	  {
 		System.out.println("Please enter Valid eamil");
 	  }
@@ -269,7 +270,7 @@ public class UserRegistration {
 	 }
   
   @Test(priority = 16)
-  public void pwd_match() {
+  public void password_match() {
 	  driver.findElement(By.name("first_name")).sendKeys("Vivek");
 	  driver.findElement(By.name("last_name")).sendKeys("Yadav");
 	  driver.findElement(By.name("user_name")).sendKeys("vivekdv01");
@@ -286,12 +287,13 @@ public class UserRegistration {
 	   System.out.println("Passwords are matching"); 
 	  }
 	  else
-	   
-		System.out.println("Password donot match"); 
+	  {
+	   System.out.println("Passwors donot match");
+	  }
   }
   
   @Test(priority = 17)
-  public void pwd_mismatch() {
+  public void password_mismatch() {
 	  driver.findElement(By.name("first_name")).sendKeys("Vivek");
 	  driver.findElement(By.name("last_name")).sendKeys("Yadav");
 	  driver.findElement(By.name("user_name")).sendKeys("vivekdv01");
@@ -305,11 +307,12 @@ public class UserRegistration {
 	  if(sample3.equals(sample4))
 		    
 	  {
-	   System.out.println("Passwors donot match"); 
+	   System.out.println("Passwors donot match");
 	  }
 	  else
-	   
-		System.out.println("Passwords are matching"); 
+	  {
+		System.out.println("Passwords are matching");
+	  }
   }
   
   @Test(priority = 18)

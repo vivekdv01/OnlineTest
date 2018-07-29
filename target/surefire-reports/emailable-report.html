@@ -31,27 +31,31 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">18</td><td class="numi">18</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">314.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">4</td><td class="numi">4</td><td class="numi_attn">16</td><td class="numi">0</td><td class="numi">55.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">registration.UserRegistration</td><td><a href="#m1"><b>blank_field</b>  </a></td><td class="numi">1</td><td>1532625955652</td><td class="numi">972</td></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="5">registration.UserRegistration</td><td><a href="#m1"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1532693349506</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1532693349506</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m3"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1532693349506</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m4"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1532693349506</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m5"><b>beforeMethod</b>  </a></td><td class="numi">1</td><td>1532693349506</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="9">registration.UserRegistration</td><td><a href="#m6"><b>afterMethod</b>  </a></td><td class="numi">16</td><td>1532693355684</td><td class="numi">30</td></tr><tr class="skippedodd"><td><a href="#m7"><b>afterMethod</b>  </a></td><td class="numi">16</td><td>1532693355684</td><td class="numi">30</td></tr><tr class="skippedodd"><td><a href="#m8"><b>afterMethod</b>  </a></td><td class="numi">16</td><td>1532693355684</td><td class="numi">30</td></tr><tr class="skippedodd"><td><a href="#m9"><b>afterMethod</b>  </a></td><td class="numi">16</td><td>1532693355684</td><td class="numi">30</td></tr><tr class="skippedodd"><td><a href="#m10"><b>beforeMethod</b>  </a></td><td class="numi">15</td><td>1532693355684</td><td class="numi">28</td></tr><tr class="skippedodd"><td><a href="#m11"><b>beforeMethod</b>  </a></td><td class="numi">15</td><td>1532693355684</td><td class="numi">28</td></tr><tr class="skippedodd"><td><a href="#m12"><b>beforeMethod</b>  </a></td><td class="numi">15</td><td>1532693355684</td><td class="numi">28</td></tr><tr class="skippedodd"><td><a href="#m13"><b>beforeMethod</b>  </a></td><td class="numi">15</td><td>1532693355684</td><td class="numi">28</td></tr><tr class="skippedodd"><td><a href="#m14"><b>beforeMethod</b>  </a></td><td class="numi">15</td><td>1532693355684</td><td class="numi">28</td></tr>
+<tr><th colspan="4">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="16">registration.UserRegistration</td><td><a href="#m15"><b>all_invalid_field_lenth</b>  </a></td><td class="numi">1</td><td>1532693355706</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m16"><b>cpwd_blank</b>  </a></td><td class="numi">1</td><td>1532693355687</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m17"><b>cpwd_length</b>  </a></td><td class="numi">1</td><td>1532693355701</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m18"><b>email_blank</b>  </a></td><td class="numi">1</td><td>1532693355688</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m19"><b>fname_lenth</b>  </a></td><td class="numi">1</td><td>1532693355690</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m20"><b>invalid_email</b>  </a></td><td class="numi">1</td><td>1532693355703</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m21"><b>invalid_phone</b>  </a></td><td class="numi">1</td><td>1532693355704</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m22"><b>lname_blank</b>  </a></td><td class="numi">1</td><td>1532693355683</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m23"><b>lname_lenth</b>  </a></td><td class="numi">1</td><td>1532693355692</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m24"><b>pwd_blank</b>  </a></td><td class="numi">1</td><td>1532693355686</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m25"><b>pwd_length</b>  </a></td><td class="numi">1</td><td>1532693355696</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m26"><b>pwd_match</b>  </a></td><td class="numi">1</td><td>1532693355708</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m27"><b>pwd_mismatch</b>  </a></td><td class="numi">1</td><td>1532693355710</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m28"><b>successful_registration</b>  </a></td><td class="numi">1</td><td>1532693355713</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m29"><b>uname_blank</b>  </a></td><td class="numi">1</td><td>1532693355685</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m30"><b>uname_length</b>  </a></td><td class="numi">1</td><td>1532693355694</td><td class="numi">0</td></tr>
 <tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="18">registration.UserRegistration</td><td><a href="#m2"><b>all_invalid_field_lenth</b>  </a></td><td class="numi">1</td><td>1532625941116</td><td class="numi">1065</td></tr><tr class="passedodd"><td><a href="#m3"><b>cpwd_blank</b>  </a></td><td class="numi">1</td><td>1532625967747</td><td class="numi">1798</td></tr><tr class="passedodd"><td><a href="#m4"><b>cpwd_length</b>  </a></td><td class="numi">1</td><td>1532625983494</td><td class="numi">1872</td></tr><tr class="passedodd"><td><a href="#m5"><b>email_blank</b>  </a></td><td class="numi">1</td><td>1532625998012</td><td class="numi">1373</td></tr><tr class="passedodd"><td><a href="#m6"><b>fname_blank</b>  </a></td><td class="numi">1</td><td>1532626012462</td><td class="numi">1646</td></tr><tr class="passedodd"><td><a href="#m7"><b>fname_lenth</b>  </a></td><td class="numi">1</td><td>1532626036347</td><td class="numi">1776</td></tr><tr class="passedodd"><td><a href="#m8"><b>invalid_email</b>  </a></td><td class="numi">1</td><td>1532626051932</td><td class="numi">1999</td></tr><tr class="passedodd"><td><a href="#m9"><b>invalid_phone</b>  </a></td><td class="numi">1</td><td>1532626070408</td><td class="numi">1823</td></tr><tr class="passedodd"><td><a href="#m10"><b>isfield_present</b>  </a></td><td class="numi">1</td><td>1532626086283</td><td class="numi">400</td></tr><tr class="passedodd"><td><a href="#m11"><b>lname_blank</b>  </a></td><td class="numi">1</td><td>1532626104489</td><td class="numi">1682</td></tr><tr class="passedodd"><td><a href="#m12"><b>lname_lenth</b>  </a></td><td class="numi">1</td><td>1532626121991</td><td class="numi">1652</td></tr><tr class="passedodd"><td><a href="#m13"><b>pwd_blank</b>  </a></td><td class="numi">1</td><td>1532626144550</td><td class="numi">1556</td></tr><tr class="passedodd"><td><a href="#m14"><b>pwd_length</b>  </a></td><td class="numi">1</td><td>1532626159490</td><td class="numi">1738</td></tr><tr class="passedodd"><td><a href="#m15"><b>pwd_match</b>  </a></td><td class="numi">1</td><td>1532626173871</td><td class="numi">1442</td></tr><tr class="passedodd"><td><a href="#m16"><b>pwd_mismatch</b>  </a></td><td class="numi">1</td><td>1532626198240</td><td class="numi">1810</td></tr><tr class="passedodd"><td><a href="#m17"><b>successful_registration</b>  </a></td><td class="numi">1</td><td>1532626211963</td><td class="numi">2531</td></tr><tr class="passedodd"><td><a href="#m18"><b>uname_blank</b>  </a></td><td class="numi">1</td><td>1532626226272</td><td class="numi">1659</td></tr><tr class="passedodd"><td><a href="#m19"><b>uname_length</b>  </a></td><td class="numi">1</td><td>1532626240151</td><td class="numi">1882</td></tr>
+<tr class="passedodd"><td rowspan="4">registration.UserRegistration</td><td><a href="#m31"><b>blank_field</b>  </a></td><td class="numi">1</td><td>1532693333100</td><td class="numi">1376</td></tr><tr class="passedodd"><td><a href="#m32"><b>fname_blank</b>  </a></td><td class="numi">1</td><td>1532693346158</td><td class="numi">2112</td></tr><tr class="passedodd"><td><a href="#m33"><b>is_pwd_encrypted</b>  </a></td><td class="numi">1</td><td>1532693310867</td><td class="numi">89</td></tr><tr class="passedodd"><td><a href="#m34"><b>isfield_present</b>  </a></td><td class="numi">1</td><td>1532693321388</td><td class="numi">580</td></tr>
 </table>
 <h1>Test</h1>
-<h2 id="m1">registration.UserRegistration:blank_field</h2>
+<h2 id="m1">registration.UserRegistration:beforeMethod</h2>
 <div style="padding-left:3em">
-<p>unknown error: Element &lt;button type=&quot;submit&quot; class=&quot;btn btn-warning&quot; disabled=&quot;disabled&quot;&gt;...&lt;/button&gt; is not clickable at point (634, 601). Other element would receive the click: &lt;div class=&quot;col-md-4&quot;&gt;...&lt;/div&gt;
+<p>unknown error: failed to change window state to maximized, current state is minimized
   (Session info: chrome=67.0.3396.99)
   (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 78 milliseconds
+Command duration or timeout: 1.16 seconds
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;Egipad061&apos;, ip: &apos;192.168.43.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+System info: host: &apos;Egipad061&apos;, ip: &apos;172.16.70.51&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\vyadav\AppData\Local\Temp\scoped_dir8560_6506}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 20235d72ad1397be05b3901407efa284</p>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\vyadav\AppData\Local\Temp\scoped_dir25124_20230}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b8ff43346cc9dda09ad39d388336b040</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -59,46 +63,111 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 <br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-<br/>at registration.UserRegistration.blank_field(UserRegistration.java:62)
-<br/>28 lines not shown
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+<br/>at registration.UserRegistration.beforeMethod(UserRegistration.java:345)
+<br/>30 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">registration.UserRegistration:lname_blank</h2>
+<h2 id="m2">registration.UserRegistration:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">registration.UserRegistration:pwd_length</h2>
+<h2 id="m3">registration.UserRegistration:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">registration.UserRegistration:pwd_match</h2>
+<h2 id="m4">registration.UserRegistration:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">registration.UserRegistration:successful_registration</h2>
+<h2 id="m5">registration.UserRegistration:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">registration.UserRegistration:all_invalid_field_lenth</h2>
+<h2 id="m6">registration.UserRegistration:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">registration.UserRegistration:uname_length</h2>
+<h2 id="m7">registration.UserRegistration:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">registration.UserRegistration:invalid_phone</h2>
+<h2 id="m8">registration.UserRegistration:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">registration.UserRegistration:email_blank</h2>
+<h2 id="m9">registration.UserRegistration:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m10">registration.UserRegistration:fname_blank</h2>
+<h2 id="m10">registration.UserRegistration:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m11">registration.UserRegistration:pwd_blank</h2>
+<h2 id="m11">registration.UserRegistration:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m12">registration.UserRegistration:cpwd_blank</h2>
+<h2 id="m12">registration.UserRegistration:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m13">registration.UserRegistration:invalid_email</h2>
+<h2 id="m13">registration.UserRegistration:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m14">registration.UserRegistration:lname_lenth</h2>
+<h2 id="m14">registration.UserRegistration:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m15">registration.UserRegistration:pwd_mismatch</h2>
+<h2 id="m15">registration.UserRegistration:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m16">registration.UserRegistration:uname_blank</h2>
+<h2 id="m16">registration.UserRegistration:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m17">registration.UserRegistration:fname_lenth</h2>
+<h2 id="m17">registration.UserRegistration:afterMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m18">registration.UserRegistration:cpwd_length</h2>
+<h2 id="m18">registration.UserRegistration:beforeMethod</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m19">registration.UserRegistration:isfield_present</h2>
+<h2 id="m19">registration.UserRegistration:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">registration.UserRegistration:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">registration.UserRegistration:beforeMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">registration.UserRegistration:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">registration.UserRegistration:beforeMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">registration.UserRegistration:beforeMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">registration.UserRegistration:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">registration.UserRegistration:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">registration.UserRegistration:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">registration.UserRegistration:beforeMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">registration.UserRegistration:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">registration.UserRegistration:beforeMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">registration.UserRegistration:beforeMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">registration.UserRegistration:afterMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">registration.UserRegistration:email_blank</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">registration.UserRegistration:lname_blank</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">registration.UserRegistration:uname_length</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">registration.UserRegistration:invalid_phone</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">registration.UserRegistration:pwd_blank</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">registration.UserRegistration:pwd_mismatch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">registration.UserRegistration:lname_lenth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">registration.UserRegistration:fname_lenth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">registration.UserRegistration:all_invalid_field_lenth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">registration.UserRegistration:uname_blank</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">registration.UserRegistration:cpwd_length</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">registration.UserRegistration:pwd_match</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">registration.UserRegistration:invalid_email</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">registration.UserRegistration:cpwd_blank</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">registration.UserRegistration:successful_registration</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">registration.UserRegistration:pwd_length</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">registration.UserRegistration:isfield_present</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">registration.UserRegistration:is_pwd_encrypted</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">registration.UserRegistration:fname_blank</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">registration.UserRegistration:blank_field</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

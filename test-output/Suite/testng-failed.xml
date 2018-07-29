@@ -5,9 +5,27 @@
     <classes>
       <class name="registration.UserRegistration">
         <methods>
-          <include name="afterMethod"/>
+          <include name="cpwd_length"/>
+          <include name="uname_blank"/>
+          <include name="fname_blank"/>
+          <include name="successful_registration"/>
           <include name="beforeMethod"/>
           <include name="blank_field"/>
+          <include name="pwd_match"/>
+          <include name="fname_lenth"/>
+          <include name="isfield_present"/>
+          <include name="lname_lenth"/>
+          <include name="pwd_blank"/>
+          <include name="cpwd_blank"/>
+          <include name="invalid_phone"/>
+          <include name="afterMethod"/>
+          <include name="email_blank"/>
+          <include name="invalid_email"/>
+          <include name="lname_blank"/>
+          <include name="pwd_length"/>
+          <include name="all_invalid_field_lenth"/>
+          <include name="pwd_mismatch"/>
+          <include name="uname_length"/>
         </methods>
       </class> <!-- registration.UserRegistration -->
     </classes>
